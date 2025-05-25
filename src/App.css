@@ -1,0 +1,42 @@
+*{ margin: 0; padding:0; box-sizing: border-box;}
+.header{
+    background-color: #00ff00;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 12px;
+}
+.desig-title{
+    font-weight: 200;
+    color: #333030 !important;
+    margin-top: 20px !important;
+    
+}
+
+.heading1, .desig-title{ padding-left: 24px;}
+
+.btn-dark{ background-color: black; color: #ffffff; padding: 12px;  margin-top: 50px; border-radius: 10px;} 
+.btn-container{ display: flex; justify-content: center; align-items: center;} .imgStyle{ width: 30px;}
+.imageDiv{ width: 30%;}
+
+.nav-block{ width: 30%; display: block; position: relative;} .bg-black{background-color: black;} .text-white{ color: white;} .bg-light-black{ background-color: #332e2e}
+.mynavbar{ height: 100vh;  z-index: 10;}
+.port-cont{ display: flex;} .portfolio-view-content{ position: relative; height: 100Vh; width: 100vw;}
+
+.nav-list{ list-style-type: none; margin: 10px;}.nav-list .nav-item{ background-color: #000; color: #fff; padding: 10px; cursor: pointer; margin-top: 20px; border-radius: 10px;}
+.nav-list .nav-item a{ text-decoration: none; color: #fff;} .nav-list .nav-item a:hover{ color: rgb(86, 86, 248)}
+.mypic{ width: 150px; height: 150px; margin-top: 60px; margin-left: 70px; border-radius: 50%;}
+.about-me{ padding-top: 20px; padding-left: 30px;}.about-me p.desc{ line-height: 24px;} .desc .locname{ font-weight: bold; font-size: 24px;}
+
+.skills-list{ list-style-type: none; margin-top: 50px; margin-left: 50px;} .skills-list li{ display: flex; margin-top: 15px} .mt5{ margin-top: 5px;} .ml20{ margin-left: 20px;}
+.redux-icon{ width: 40px; height: 30px; padding: 0;} .icon-vue{ width: 40px; height: 30px; padding: 0; } .icon-express{ width: 40px; background-color: #ffffff;}
+.logo-git{ width: 50px;}
