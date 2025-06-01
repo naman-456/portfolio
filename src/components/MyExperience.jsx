@@ -11,6 +11,14 @@ export const MyExperience = () => {
                    Express js.
                 </p>
             </li>
+            <li>
+                <h1 className="cmpny-name">SpeedLabs</h1>
+                <h4>(December 2021 - May 2022)</h4>
+                <p className="exp-desc">
+                    <span className="subheading">Junior Software Developer</span>
+                    As a Junior software developer I worked with technologies Vue, C#, .NET, SQL
+                </p>
+            </li>
         </ul>
     )
 }

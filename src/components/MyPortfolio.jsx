@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 import Home from "./Home";
 import { MySkills } from "./MySkills";
 import { MyExperience } from "./MyExperience";
+import  { Education} from "./Education"
 const MyPortfolio = () => {
     const [enableDarkMode, setDarkMode] = useState(true)
     console.log('setDarkMode :', setDarkMode);
@@ -22,6 +23,7 @@ const MyPortfolio = () => {
                 { location.pathname == '/' && <Home />}
                 { location.pathname == '/myskills' && <MySkills />} 
                 { location.pathname == '/experience' && <MyExperience /> }
+                { location.pathname == '/education' && <Education /> }
             </div>
           </div>    
         </>

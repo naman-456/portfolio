@@ -30,10 +30,10 @@
 
 .nav-block{ width: 30%; display: block; position: relative;} .bg-black{background-color: black;} .text-white{ color: white;} .bg-light-black{ background-color: #332e2e}
 .mynavbar{ height: 100vh;  z-index: 10;}
-.port-cont{ display: flex;} .portfolio-view-content{ position: relative; height: 100Vh; width: 100vw;}
+.port-cont{ display: flex;} .portfolio-view-content{ position: relative; height: 100Vh; width: 100vw; overflow: scroll;}
 
 .nav-list{ list-style-type: none; margin: 10px;}.nav-list .nav-item{ background-color: #000; color: #fff; padding: 10px; cursor: pointer; margin-top: 20px; border-radius: 10px;}
-.nav-list .nav-item a{ text-decoration: none; color: #fff;} .nav-list .nav-item a:hover{ color: rgb(86, 86, 248)}
+.nav-list .nav-item a{ text-decoration: none; color: #fff;} .nav-list .nav-item a:hover{ color: rgb(86, 86, 248)} .nav-list .nav-item.active a{ color: rgb(86, 86, 248);}
 .mypic{ width: 150px; height: 150px; margin-top: 60px; margin-left: 70px; border-radius: 50%;}
 .about-me{ padding-top: 20px; padding-left: 30px;}.about-me p.desc{ line-height: 24px;} .desc .locname{ font-weight: bold; font-size: 24px;}
 
@@ -42,3 +42,4 @@
 .logo-git{ width: 50px;}
 
 .exp-list{ list-style-type: number; margin-top: 60px; margin-left: 20px;} .exp-list .cmpny-name{ font-size: 24px; color: rgb(235, 79, 79) } .exp-desc{ text-align: justify; padding-right: 20px; margin-top: 12px; color: rgb(235, 144, 108); font-size: 24px;}
+.my-education{ margin-top: 80px; margin-left: 24px; line-height: 36px;} .my-education h2{ color: #ff0000;} .edu-desc{ color: #6ee7b7;} .subheading{ display: block; font-size: 20px;}
