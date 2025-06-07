@@ -42,4 +42,12 @@
 .logo-git{ width: 50px;}
 
 .exp-list{ list-style-type: number; margin-top: 60px; margin-left: 20px;} .exp-list .cmpny-name{ font-size: 24px; color: rgb(235, 79, 79) } .exp-desc{ text-align: justify; padding-right: 20px; margin-top: 12px; color: rgb(235, 144, 108); font-size: 24px;}
-.my-education{ margin-top: 80px; margin-left: 24px; line-height: 36px;} .my-education h2{ color: #ff0000;} .edu-desc{ color: #6ee7b7;} .subheading{ display: block; font-size: 20px;}
+.my-education{ margin-top: 80px; margin-left: 24px; line-height: 36px;} .my-education h2{ color: #ff0000;} .edu-desc{ color: #6ee7b7;} .subheading{ display: block; font-size: 20px;} 
+
+/* CSS for project list starts here*/
+.portfolio-view-content .myprojects{ padding-left: 50px; padding-top: 60px;}.myprojects .projects-list{ list-style-type: decimal;} .myprojects h1{ color:rgb(108, 235, 235)} .projects-list .proj-desc{ color: #08ebe0; font-size: 18px;  padding: 10px;} 
+@media screen and (min-width: 768px) {
+    .projects-list .proj-desc{ font-size: 24px;}
+}
+.project-link{ font-size: 18px;}
+/* project list css end here */

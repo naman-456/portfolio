@@ -7,6 +7,7 @@ import Home from "./Home";
 import { MySkills } from "./MySkills";
 import { MyExperience } from "./MyExperience";
 import  { Education} from "./Education"
+import { MyProjects } from "./MyProjects";
 const MyPortfolio = () => {
     const [enableDarkMode, setDarkMode] = useState(true)
     console.log('setDarkMode :', setDarkMode);
@@ -24,6 +25,7 @@ const MyPortfolio = () => {
                 { location.pathname == '/myskills' && <MySkills />} 
                 { location.pathname == '/experience' && <MyExperience /> }
                 { location.pathname == '/education' && <Education /> }
+                { location.pathname == '/projects' && <MyProjects />}
             </div>
           </div>    
         </>

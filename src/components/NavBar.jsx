@@ -17,6 +17,9 @@ export const NavBar = () => {
                     <li className={`nav-item ${location.pathname == '/education' ? 'active': ''}`}>
                         <Link to="/education">Education</Link>
                     </li>
+                    <li className={`nav-item ${location.pathname == '/projects' ? 'active': ''}`}>
+                        <Link to="/projects">Projects</Link>
+                    </li>
                  </ul>
         </div>
      
