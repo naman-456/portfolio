@@ -13,7 +13,7 @@ const Home = () => {
                   I have 4 years of experience in Software development, currently working in healthcare based startup company Maren Solutions
                   pvt Ltd at <span className="locname">Hyderabad</span> location. 
                </p>
-               <a className={'sa-btn-success mt50 ml10 text-decoration-none'} href={myResume} download="resume_naman.pdf">Download Resume</a>
+               <a className={'sa-btn-success mt20 ml10 text-decoration-none'} href={myResume} download="resume_naman.pdf">Download Resume</a>
             </div>
          </div>
       </>
